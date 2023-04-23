@@ -11,11 +11,12 @@
         android:id="@+id/imageView"
         android:layout_width="@dimen/_150sdp"
         android:layout_height="@dimen/_150sdp"
-        android:src="@drawable/ic_home_black_24dp"
+        android:src="@drawable/ic_baseline_person_outline_24"
         app:layout_constraintBottom_toTopOf="@+id/login_card"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
         app:layout_constraintStart_toStartOf="parent"
+        app:tint="?android:colorPrimary"
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.cardview.widget.CardView
