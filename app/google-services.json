@@ -1,0 +1,101 @@
+{
+  "project_info": {
+    "project_number": "327221688793",
+    "firebase_url": "https://sai-vegetables-c4cff-default-rtdb.firebaseio.com",
+    "project_id": "sai-vegetables-c4cff",
+    "storage_bucket": "sai-vegetables-c4cff.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327221688793:android:2fd95c9d94f824598981c8",
+        "android_client_info": {
+          "package_name": "com.codestrela.saivegetables"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327221688793-3k05neanq6tq8ak2tgpp63nn07g0u9bm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codestrela.saivegetables",
+            "certificate_hash": "bc10022a023b184d3f49497196377150ea5a6a31"
+          }
+        },
+        {
+          "client_id": "327221688793-52pjq18tqvkaska4cnhjhu3h8sp4bjtg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codestrela.saivegetables",
+            "certificate_hash": "e90a1c6abb11542f2d4d8b05865229aac91cebaf"
+          }
+        },
+        {
+          "client_id": "327221688793-7ig4fe5t9rprb09qfj8kjosnkqvgjudb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codestrela.saivegetables",
+            "certificate_hash": "759a6db8bc027ea22e98b844b88754b1415fe8e0"
+          }
+        },
+        {
+          "client_id": "327221688793-8o8jne76d5p2tstl8dl9c6enqk4n5jmi.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.codestrela.saivegetables",
+            "certificate_hash": "f986351997db4c6cf4cb85fd3f3364c8dc7e6b45"
+          }
+        },
+        {
+          "client_id": "327221688793-vuemqtibco1dd0vf253he6q2q06feqa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmLnUOjZvOnNtykoLrNW47EoKHOj6Dogk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327221688793-vuemqtibco1dd0vf253he6q2q06feqa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:327221688793:android:d26f327a8e1db2818981c8",
+        "android_client_info": {
+          "package_name": "com.gtech.yojana"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "327221688793-vuemqtibco1dd0vf253he6q2q06feqa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmLnUOjZvOnNtykoLrNW47EoKHOj6Dogk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "327221688793-vuemqtibco1dd0vf253he6q2q06feqa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
