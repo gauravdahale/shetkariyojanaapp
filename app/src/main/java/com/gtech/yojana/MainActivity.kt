@@ -55,7 +55,12 @@ class MainActivity : AppCompatActivity() {
                 }
             }
         }
+    try {
         checkLogin()
+    }catch (e:java.lang.Exception){
+        Log.d(TAG, "onCreate() returned: ${e.message}")
+    }
+
     }
 
     private fun checkLogin() {

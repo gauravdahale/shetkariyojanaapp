@@ -33,6 +33,7 @@ class NotificationsFragment : Fragment() {
 
     private var _binding: FragmentNotificationsBinding? = null
 
+    private  val TAG = "NotificationsFragment"
     // This property is only valid between onCreateView and
     // onDestroyView.
     private val binding get() = _binding!!
@@ -57,8 +58,11 @@ class NotificationsFragment : Fragment() {
      val email =view.findViewById<TextView>(R.id.useremail)
         email.text =FirebaseAuth.getInstance().currentUser?.email
         val logout = view.findViewById<Button>(R.id.logout)
-        fetchUserDetails()
-
+try {
+    fetchUserDetails()
+}catch (e:java.lang.Exception){
+    Log.e(TAG, "onViewCreated: ${e.message}", )
+}
         logout.setOnClickListener {
             FirebaseAuth.getInstance().signOut()
             Toast.makeText(requireContext(), "User Logged Out!", Toast.LENGTH_SHORT).show()

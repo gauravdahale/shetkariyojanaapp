@@ -1,6 +1,7 @@
 package com.gtech.yojana.ui.dashboard
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -61,7 +62,12 @@ class DashboardFragment : Fragment() {
             mRecyclerView = binding.articleRecyclerView
             mRecyclerView.layoutManager = LinearLayoutManager(context)
             mRecyclerView.adapter = mAdapter
-            fetchData()
+     try {
+         fetchData()
+
+     }catch (e:java.lang.Exception){
+         Log.d(TAG, "initRecyclerView() returned: ${e.message}")
+     }
         }
 
         private fun fetchData() {
