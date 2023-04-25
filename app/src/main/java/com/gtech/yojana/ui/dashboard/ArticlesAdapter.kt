@@ -1,6 +1,7 @@
 package com.gtech.yojana.ui.dashboard
 
 import android.content.Context
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
@@ -20,6 +21,7 @@ class ArticlesAdapter(
     private val mList: ArrayList<YojnaModel>,
     val mNavController: NavController
 ) : RecyclerView.Adapter<ArticlesAdapter.ViewHolder>() {
+    private  val TAG = "ArticlesAdapter"
     class ViewHolder(binding: ItemArticleBinding) : RecyclerView.ViewHolder(binding.root),
         View.OnClickListener {
         val title = binding.title
@@ -48,6 +50,9 @@ class ArticlesAdapter(
     }
 
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
+        try {
+
+
         if (!mList.isEmpty()) {
             val md = mList[holder.adapterPosition]
             holder.title.text = md.heading
@@ -67,7 +72,9 @@ class ArticlesAdapter(
 
             })
         }
-    }
+        } catch (e:java.lang.Exception){
+            Log.d(TAG, "onBindViewHolder() returned: ${e.message}")
+    }}
 
     override fun getItemCount(): Int {
         return mList.size
