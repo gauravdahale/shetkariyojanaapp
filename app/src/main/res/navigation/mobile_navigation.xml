@@ -20,7 +20,11 @@
         android:id="@+id/navigation_dashboard"
         android:name="com.gtech.yojana.ui.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
-        tools:layout="@layout/fragment_dashboard" />
+        tools:layout="@layout/fragment_dashboard" >
+        <action
+            android:id="@+id/action_navigation_dashboard_to_articleDetailFragment"
+            app:destination="@id/articleDetailFragment" />
+    </fragment>
 
     <fragment
         android:id="@+id/navigation_notifications"
@@ -32,4 +36,8 @@
         android:name="com.gtech.yojana.ui.yojna_detail.YojnaDetailFragment"
         android:label="Yojna Detail"
         tools:layout="@layout/fragment_yojna_detail" />
+    <fragment
+        android:id="@+id/articleDetailFragment"
+        android:name="com.gtech.yojana.ui.articledetail.ArticleDetailFragment"
+        android:label="" />
 </navigation>
